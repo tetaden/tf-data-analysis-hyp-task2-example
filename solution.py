@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from hyppo.ksample import MMD
-
+from scipy.stats import anderson_ksamp
 chat_id = 415542660 # Ваш chat ID, не меняйте название переменной
 
 def solution(x: np.array, y: np.array) -> bool:
